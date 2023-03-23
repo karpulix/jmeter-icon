@@ -1,0 +1,2 @@
+#!/bin/bash
+JMETER_OPTS="${JMETER_OPTS} -Xdock:icon=/Applications/JMeter.app/Icon.png -Xdock:name=JMeter -Dapple.laf.useScreenMenuBar=true -Dapple.eawt.quitStrategy=CLOSE_ALL_WINDOWS" JAVA_HOME="/opt/homebrew/opt/openjdk" exec "/opt/homebrew/Cellar/jmeter/5.5/libexec/bin/jmeter"  "$@"
